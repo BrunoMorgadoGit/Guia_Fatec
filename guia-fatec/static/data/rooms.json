@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Sala 2ª Termo B-10",
+        "code": "S-18",
+        "type": "classroom",
+        "location": "Bloco B – Sala 18",
+        "floor": "Térreo",
+        "id": 1,
+        "coords": [
+            836.0,
+            278.1
+        ],
+        "capacity": 30,
+        "description": "Espaço interativo identificado no novo mapa da FATEC.",
+        "image": "static/images/sala_18_1.jpeg",
+        "images": [
+            "static/images/sala_18_1.jpeg",
+            "static/images/sala_18_2.jpeg"
+        ],
+        "courses": [
+            "TSI"
+        ],
+        "status": "available",
+        "schedule": "07:00 – 23:00",
+        "next_class": {
+            "subject": "Aula Demonstrativa",
+            "teacher": "Professor IA",
+            "time": "19:00"
+        },
+        "reserved_by": null,
+        "reserved_subject": null,
+        "route_path": "static/images/routes/sala_5.png"
+    },
+    {
+        "name": "Secretaria",
+        "code": "SEC",
+        "type": "utility",
+        "location": "Secretaria Acadêmica",
+        "floor": "Térreo",
+        "id": 2,
+        "coords": [
+            660.3,
+            713.3
+        ],
+        "capacity": 0,
+        "description": "Bem-vindo à Secretaria Acadêmica da FATEC Pompéia! Aqui você pode resolver questões relacionadas a matrículas, documentos, estágios e suporte acadêmico. Atendimento de segunda a sexta. Contato: (14) 3452-1294 | f259.secretaria@fatec.sp.gov.br",
+        "image": "static/images/entrada.webp",
+        "images": [
+            "static/images/entrada.webp"
+        ],
+        "courses": [],
+        "status": "utility",
+        "schedule": "07:00 – 23:00",
+        "next_class": null,
+        "route_path": "static/images/routes/sala_4.png"
+    },
+    {
+        "name": "Entrada",
+        "code": "Entrada",
+        "type": "utility",
+        "location": "Acesso Principal",
+        "floor": "Térreo",
+        "id": 3,
+        "coords": [
+            602.5,
+            1416.0
+        ],
+        "capacity": 0,
+        "description": "Bem-vindo à Fatec de Pompéia Shunji Nishimura! Somos referência em tecnologia aplicada ao agronegócio, oferecendo ensino superior público e de excelência. Aqui você encontra cursos inovadores como Agricultura de Precisão e Tecnologia em Sistemas Inteligentes (TSI), além de laboratórios modernos e um ambiente voltado à inovação. Sinta-se em casa!",
+        "image": "static/images/entrada_011.jpeg",
+        "images": [
+            "static/images/entrada_011.jpeg",
+            "static/images/entrada_p2.jpeg",
+            "static/images/entrada_p1.jpeg"
+        ],
+        "courses": [
+            "TSI"
+        ],
+        "status": "available",
+        "schedule": "07:00 – 23:00",
+        "next_class": null
+    },
+    {
+        "name": "Laboratório Sistemas Inteligentes D-05",
+        "code": "S-21",
+        "type": "classroom",
+        "location": "Bloco C – Sala 21",
+        "floor": "Térreo",
+        "id": 4,
+        "coords": [
+            293.0,
+            1222.3
+        ],
+        "capacity": 30,
+        "description": "Espaço interativo identificado no novo mapa da FATEC.",
+        "image": "static/images/sala_andre_p2_2.jpeg",
+        "images": [
+            "static/images/sala_andre_p2_2.jpeg",
+            "static/images/sala_andre_p1.jpg"
+        ],
+        "courses": [
+            "TSI"
+        ],
+        "status": "available",
+        "schedule": "07:00 – 23:00",
+        "next_class": {
+            "subject": "Aula Demonstrativa",
+            "teacher": "Professor IA",
+            "time": "19:00"
+        },
+        "reserved_by": null,
+        "reserved_subject": null,
+        "route_path": "static/images/routes/sala_andre.png"
+    },
+    {
+        "name": "Laboratório D-09",
+        "code": "S-22",
+        "type": "classroom",
+        "location": "Bloco C – Sala 22",
+        "floor": "Térreo",
+        "id": 5,
+        "coords": [
+            31.7,
+            1171.6
+        ],
+        "capacity": 30,
+        "description": "Espaço interativo identificado no novo mapa da FATEC.",
+        "image": "static/images/sala_22_1.jpeg",
+        "images": [
+            "static/images/sala_22_1.jpeg",
+            "static/images/sala_22_2_new.jpeg"
+        ],
+        "courses": [
+            "TSI"
+        ],
+        "status": "available",
+        "schedule": "07:00 – 23:00",
+        "next_class": {
+            "subject": "Aula Demonstrativa",
+            "teacher": "Professor IA",
+            "time": "19:00"
+        },
+        "reserved_by": null,
+        "reserved_subject": null,
+        "route_path": "static/images/routes/sala_2.png"
+    }
+]
