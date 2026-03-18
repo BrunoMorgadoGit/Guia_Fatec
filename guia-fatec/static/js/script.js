@@ -338,6 +338,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const resWrap = $('m-reserved-wrap');
     const nextBox = $('m-next-class');
     
+    if (nextBox) nextBox.classList.remove('active-class', 'status-available');
+
     if (room.reserved_by) {
       if (resWrap) {
         resWrap.classList.remove('hidden');
@@ -353,9 +355,14 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       if (resWrap) resWrap.classList.add('hidden');
       if (nextBox) {
-        if (room.next_class) {
+        if (room.status === 'available') {
           nextBox.style.display = 'block';
-          nextBox.classList.remove('active-class');
+          nextBox.classList.add('status-available');
+          nextBox.querySelector('.ncb-label').textContent = 'Status';
+          $('m-next-subj').textContent = 'Sala Livre';
+          $('m-next-det').textContent  = 'Disponível para uso agora';
+        } else if (room.next_class) {
+          nextBox.style.display = 'block';
           nextBox.querySelector('.ncb-label').textContent = 'Próxima Aula';
           $('m-next-subj').textContent = room.next_class.subject;
           $('m-next-det').textContent  = `${room.next_class.teacher} · ${room.next_class.time}`;

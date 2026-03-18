@@ -2064,6 +2064,16 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--r-sm);
   padding: 1rem 1.1rem;
   margin-bottom: 1.1rem;
+  transition: var(--t);
+}
+
+.next-class-box.status-available {
+  background: rgba(16, 185, 129, 0.08);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.next-class-box.status-available .ncb-label {
+  color: var(--green);
 }
 
 .ncb-label {

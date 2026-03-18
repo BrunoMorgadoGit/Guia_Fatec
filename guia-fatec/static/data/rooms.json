@@ -3,14 +3,14 @@
         "name": "Sala 2ª Termo B-10",
         "code": "S-18",
         "type": "classroom",
-        "location": "Bloco B – Sala 18",
-        "floor": "Térreo",
+        "location": "Bloco B",
+        "floor": "Segundo Andar",
         "id": 1,
         "coords": [
             836.0,
             278.1
         ],
-        "capacity": 30,
+        "capacity": 56,
         "description": "Espaço interativo identificado no novo mapa da FATEC.",
         "image": "static/images/sala_18_1.jpeg",
         "images": [
@@ -84,14 +84,14 @@
         "name": "Laboratório Sistemas Inteligentes D-05",
         "code": "S-21",
         "type": "classroom",
-        "location": "Bloco C – Sala 21",
+        "location": "Bloco D",
         "floor": "Térreo",
         "id": 4,
         "coords": [
             293.0,
             1222.3
         ],
-        "capacity": 30,
+        "capacity": 48,
         "description": "Espaço interativo identificado no novo mapa da FATEC.",
         "image": "static/images/sala_andre_p2_2.jpeg",
         "images": [
@@ -116,14 +116,14 @@
         "name": "Laboratório D-09",
         "code": "S-22",
         "type": "classroom",
-        "location": "Bloco C – Sala 22",
+        "location": "Bloco D",
         "floor": "Térreo",
         "id": 5,
         "coords": [
             31.7,
             1171.6
         ],
-        "capacity": 30,
+        "capacity": 50,
         "description": "Espaço interativo identificado no novo mapa da FATEC.",
         "image": "static/images/sala_22_1.jpeg",
         "images": [
